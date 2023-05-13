@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Winnie's Laundry Shop</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <style>
+      /* Style the header */
+      header {
+        background-color: #e785c2;
+        color: white;
+        padding: 50px;
+        text-align: center;
+      }
+      h1{
+        font-size:xx-large;
+        font-style:italic;
+      }
+      
+      /* Style the navigation menu */
+      nav {
+        display: inline-block;
+        margin-top: 20px;
+
+      }
+      
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      nav li {
+        float: left;
+      }
+      
+      nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      nav li a:hover {
+        background-color: #111;
+        margin: 0px;
+      }
+      
+      /* Style the main content */
+      main {
+        max-width: 960px;
+        margin: 0 auto;
+      }
+      
+      section {
+        padding: 40px 20px;
+        margin: 20px 0;
+        background-color: #f2f2f2;
+        border-radius: 5px;
+      }
+      
+      h1, h2, h3 {
+        margin-top: 0;
+      }
+      /* style the body */
+      body{
+        background-color: lightyellow;
+      }
+      /*
+carousel type ting
+*/
+.item{
+    width: max-content;
+    height: max-content;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+/*style the footer*/
+footer {
+  background-color: darkgray;
+  padding: 50px 0;
+  font-size: 14px;
+}
+
+footer p {
+  margin-bottom: 20px;
+}
+
+.social-media-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-media-icons li:last-child {
+  margin-right: 0;
+}
+
+.fa {
+  display: inline-block;
+  font-size: 20px;
+  color:white;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.fa:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+@media (max-width: 767px) {
+  .social-media-icons li {
+    margin-right: 5px;
+  }
+
+  .fa {
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+}
+
+    </style>
+  </head>
+ <body>
+    <div>
+    <header>
+      <h1>WINNIE'S DRY CLEANER AND LAUNDRY</h1>
+      <nav>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="https://wa.me/+254721675733">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    </div>
+     <!--carousel-->
+    
+     <div class="container">
+        <h2></h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+          </ol>
+      
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+      
+            <div class="item active">
+              <img src="images/a.jpg" alt="dry cleaners" style="width:100%;">
+              <div class="carousel-caption">
+                <h3>WINNIE'S DRY CLEANEARS AND LAUNDRY</h3>
+                <p> we perfect in cleanliness</p>
+              </div>
+            </div>
+      
+            <div class="item">
+              <img src="images/c.jpg" alt="ironing" style="width:100%;">
+              <div class="carousel-caption">
+                <h3>WINNIE'S DRY CLEANEARS AND LAUNDRY</h3>
+                <p>we perfect in cleanliness</p>
+              </div>
+            </div>
+          
+            <div class="item">
+              <img src="images/b.jpg" alt="laundry" style="width:100%;">
+              <div class="carousel-caption">
+                <h3>WINNIE'S DRY CLEANEARS AND LAUNDRY</h3>
+                <p>we perfect in cleanliness</p>
+              </div>
+            </div>
+
+            <div class="item">
+                <img src="images/d.jpg" alt="shop" style="width:100%;">
+                <div class="carousel-caption">
+                  <h3>WINNIE'S DRY CLEANEARS AND LAUNDRY</h3>
+                  <p>we perfect in cleanliness</p>
+                </div>
+              </div>
+              
+              <div class="item">
+                <img src="images/e.jpg" alt="laundry" style="width:100%;">
+                <div class="carousel-caption">
+                  <h3>WINNIE'S DRY CLEANEARS AND LAUNDRY</h3>
+                  <p>we perfect in cleanliness</p>
+                </div>
+              </div>  
+
+          </div>
+      
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      
+      
+          <!--carousel-->
+  
+    <main>
+      <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer a variety of laundry services to meet your needs.</p>
+        <ul>
+          <li>Wash and Fold</li>
+          <li>Dry Cleaning</li>
+          <li>Ironing</li>
+          <li>Alterations</li>
+        </ul>
+       </section>
+       <div>
+      <section id="pricing">
+        <h2>Pricing</h2>
+        <p>Our pricing is very affordable.</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Service</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Wash and Fold (per item)</td>
+              <td>200ksh</td>
+            </tr>
+            <tr>
+              <td>Dry Cleaning (per item)</td>
+              <td>500ksh</td>
+            </tr>
+            <tr>
+              <td>Ironing (per item)</td>
+              <td>200ksh</td>
+        </table>
+        </main>
+     <hr>
+     <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p>&copy; 2023 All Rights Reserved. Winnie's Laundry Services.</p>
+              <p>Address: [membley, kasarani, roysambu], Phone: [+254721675733],<br> Email: [keithofficial254@gmail.com].</p>
+              <p>we are located in Nairobi Kenya.</p>
+            </div>
+            <div class="col-md-6">
+              <ul class="social-media-icons">
+                <li><a href="[Insert Social Media Link Here]"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="[Insert Social Media Link Here]"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="[Insert Social Media Link Here]"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p>Design by KEITH GITOBU.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+        </body>
+</html>
